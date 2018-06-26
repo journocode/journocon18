@@ -45,7 +45,7 @@ var-1 <- 3 # funktioniert nicht!
 ?sum() # Hilfeseite aufrufen
 c(3,6,5) # Zahlen zu Vektoren verbinden
 mean(c(1,5,8,3,22,122)) # arithmetisches Mittel
-median(c(1,5,8,3,22)) # Median
+median(c(1,5,8,3,22,122)) # Median
 round(3.525312, 2) # Zahl runden auf zwei Nachkommastellen. P.S.: Dezimalzahlen werden in R mit Punkten getrennt!!
 
 # Pakete mit Zusatzfunktionen laden
@@ -74,7 +74,7 @@ myfunction2(4,3)
 # Vektoren
 vec <- c(1,2,3,4,5)
 vec2 <- 6:10 # Vektor aus allen Zahlen zwischen der ersten und der zweiten in Einer-Schritten
-strnum <- c("eins","zwei",3) # sobald Strings in einem Vektor vorkommen, werden auch die vorkommenden Zahlen als Strings gespeichert
+strnum <- c("eins","zwei",3) # sobald Strings in einem Vektor vorkommen, werden auch die vorkommenden Zahlen als Strings gespeichert (siehe Environment-Panel)
 
 # Datensätze
 df <- data.frame(col1 = vec, col2 = vec2, col3 = c("a", "b", "c", "d", "e")) # Alle Spalten müssen die gleiche Länge haben!
